@@ -1,0 +1,22 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# python bytecode cache
+__pycache__/
+*.pyc
+
+# SwiftPM / Xcode build artifacts
+.build/
+.swiftpm/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+
+# XcodeGen-generated project (regenerate: xcodegen generate)
+Riddle.xcodeproj/
+
+# Phase-1 local API config (bundled; superseded by Keychain in Phase 2)
+RiddleApp/riddle-config.plist

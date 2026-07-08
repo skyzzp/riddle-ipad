@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  OPTIONAL dev convenience. You do NOT need this file: on first launch the app
+  opens Settings and you can paste your OpenRouter key there (it is stored in
+  the Keychain). This file only pre-seeds the key so a fresh device works before
+  you open Settings.
+
+  To use it: copy this file to `riddle-config.plist` (same folder) and fill in
+  your key. `riddle-config.plist` is gitignored and must NEVER be committed.
+  Get a key at https://openrouter.ai/keys
+-->
+<plist version="1.0">
+<dict>
+	<key>baseURL</key>
+	<string>https://openrouter.ai/api/v1</string>
+	<key>apiKey</key>
+	<string>sk-or-v1-REPLACE_WITH_YOUR_OWN_KEY</string>
+</dict>
+</plist>

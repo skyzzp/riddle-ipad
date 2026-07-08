@@ -1,0 +1,11 @@
+Bundled texture assets — attribution
+=====================================
+
+wrinkle.jpg
+  Source:  "Wrinkled Paper Texture Free Creative Commons"
+  Author:  D Sharon Pruitt / Pink Sherbet Photography
+  License: CC-BY-2.0 (https://creativecommons.org/licenses/by/2.0/)
+  Origin:  Wikimedia Commons
+           https://commons.wikimedia.org/wiki/File:Wrinkled_Paper_Texture_Free_Creative_Commons_(6816216700).jpg
+  Use:     Desaturated, mid-gray-recentered, blended as a soft-light luminance
+           overlay on the diary page (display only; never transmitted).
