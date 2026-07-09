@@ -22,6 +22,12 @@ jobs:
 
       - name: Generate Xcode Project
         run: xcodegen generate
+        
+      - name: List Files
+        run: |
+          pwd
+          ls -la
+          find . -name "*.xcodeproj"
 
       - name: Resolve Swift Packages
         run: |
