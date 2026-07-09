@@ -33,12 +33,12 @@ jobs:
         run: |
           xcodebuild \
             -resolvePackageDependencies \
-            -project RiddleApp.xcodeproj
+            -project Riddle.xcodeproj
 
       - name: Build
         run: |
           xcodebuild \
-            -project RiddleApp.xcodeproj \
+            -project Riddle.xcodeproj \
             -scheme RiddleApp \
             -configuration Release \
             -destination 'generic/platform=iOS' \
