@@ -39,18 +39,19 @@ jobs:
         run: |
           xcodebuild -list -project Riddle.xcodeproj
           
-      - name: Build
+      - name: Archive App
         run: |
           xcodebuild \
-            -project Riddle.xcodeproj \
-            -scheme Riddle \
-            -configuration Release \
-            -destination 'generic/platform=iOS' \
-            CODE_SIGNING_ALLOWED=NO \
-            build
-
-      - name: Upload Build
+           -project Riddle.xcodeproj \
+           -scheme Riddle \
+           -configuration Release \
+           -destination 'generic/platform=iOS' \
+           -archivePath Riddle.xcarchive \
+           CODE_SIGNING_ALLOWED=NO \
+           archive
+           
+      - name: Upload Archive
         uses: actions/upload-artifact@v4
         with:
-          name: Riddle-Build
-          path: .
+           name: Riddle-xcarchive
+           path: Riddle.xcarchive
