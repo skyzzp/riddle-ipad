@@ -43,7 +43,7 @@ jobs:
         run: |
           xcodebuild \
             -project Riddle.xcodeproj \
-            -scheme RiddleApp \
+            -scheme Riddle \
             -configuration Release \
             -destination 'generic/platform=iOS' \
             CODE_SIGNING_ALLOWED=NO \
