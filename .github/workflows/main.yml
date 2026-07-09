@@ -34,7 +34,11 @@ jobs:
           xcodebuild \
             -resolvePackageDependencies \
             -project Riddle.xcodeproj
-
+            
+      - name: List Schemes
+        run: |
+          xcodebuild -list -project Riddle.xcodeproj
+          
       - name: Build
         run: |
           xcodebuild \
